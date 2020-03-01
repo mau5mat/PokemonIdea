@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Output",
+        "repositoryURL": "https://github.com/chackle/Output.git",
+        "state": {
+          "branch": "master",
+          "revision": "4cae6cf97ba7fdf2f62bdb1763ca441e86dd8589",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
