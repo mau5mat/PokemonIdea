@@ -20,7 +20,7 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JB9-1b-cf3" customClass="SlantedView" customModule="PokemonIdea" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="718"/>
-                                        <color key="backgroundColor" red="1" green="0.66594364844520548" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="slantHeight">
                                                 <real key="value" value="115"/>
@@ -28,7 +28,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="JB9-1b-cf3" firstAttribute="top" secondItem="48M-5P-9x1" secondAttribute="top" constant="50" id="Aju-DP-CKD"/>
                                     <constraint firstAttribute="bottom" secondItem="JB9-1b-cf3" secondAttribute="bottom" id="G3X-eI-XZm"/>

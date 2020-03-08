@@ -12,6 +12,8 @@ import UIKit
 @IBDesignable
 class SlantedView: UIView {
   
+  private var path = UIBezierPath()
+  
   @IBInspectable var slantHeight: CGFloat = 50 { didSet { updatePath() } }
   
   private let shapeLayer: CAShapeLayer = {
@@ -27,8 +29,6 @@ class SlantedView: UIView {
   }
   
   private func updatePath() {
-    let path = UIBezierPath()
-    
     // Top Left
     path.move(to: CGPoint(x: bounds.minX, y: bounds.minY + slantHeight))
     
