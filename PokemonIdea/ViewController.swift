@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  @IBOutlet private var slantedView: SlantedView!
 
   override func viewDidLoad() {
     super.viewDidLoad()

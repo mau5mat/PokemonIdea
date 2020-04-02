@@ -23,6 +23,7 @@
 		9FC0FB09240C12240022CB3A /* SlantedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0FB08240C12240022CB3A /* SlantedView.swift */; };
 		9FC0FB0E240E98700022CB3A /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0FB0C240E98700022CB3A /* PokemonCollectionViewCell.swift */; };
 		9FC0FB0F240E98700022CB3A /* PokemonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0FB0D240E98700022CB3A /* PokemonCollectionViewCell.xib */; };
+		9FC0FB1124153F2F0022CB3A /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0FB1024153F2F0022CB3A /* UIImageView+URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		9FC0FB08240C12240022CB3A /* SlantedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlantedView.swift; sourceTree = "<group>"; };
 		9FC0FB0C240E98700022CB3A /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
 		9FC0FB0D240E98700022CB3A /* PokemonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCollectionViewCell.xib; sourceTree = "<group>"; };
+		9FC0FB1024153F2F0022CB3A /* UIImageView+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				9FC0FAFD240BFE660022CB3A /* Decodable+Decode.swift */,
 				9FC0FAFF240BFE760022CB3A /* Array+Decode.swift */,
 				9FC0FB01240BFE870022CB3A /* Data+Decode.swift */,
+				9FC0FB1024153F2F0022CB3A /* UIImageView+URL.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				9FC0FAE4240965F60022CB3A /* ViewController.swift in Sources */,
 				9FC0FAF6240966490022CB3A /* Pokemon.swift in Sources */,
+				9FC0FB1124153F2F0022CB3A /* UIImageView+URL.swift in Sources */,
 				9FC0FAE0240965F60022CB3A /* AppDelegate.swift in Sources */,
 				9FC0FB0E240E98700022CB3A /* PokemonCollectionViewCell.swift in Sources */,
 				9FC0FB00240BFE760022CB3A /* Array+Decode.swift in Sources */,

@@ -26,11 +26,23 @@ class PokemonWebService {
       self.handleResponse(withResponse: response)
       self.handleError(withError: error)
       
-      let pokemon = try? Pokemon.decode(fromJSON: data!)
-      self.delegate?.didRecievePokemon(pokemon: pokemon!)
-      
+      self.decodePokemon(withData: data)
     }
     task.resume()
+  }
+  
+  func decodePokemon(withData data: Data?) {
+    guard let data = data else {
+      return log("Problem with JSON Data!")
+    }
+    guard let pokemon = try? Pokemon.decode(fromJSON: data) else {
+      return log("Problem decoding Pokemon from JSON!")
+    }
+    passDataToController(withPokemon: pokemon)
+  }
+  
+  func passDataToController(withPokemon pokemon: Pokemon) {
+    self.delegate?.didRecievePokemon(pokemon: pokemon)
   }
   
 }
